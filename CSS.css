@@ -233,6 +233,7 @@ html,body {
     background-image: radial-gradient(WHITE,white,white,white,grey,black);
 }
 
+
 @media screen and (min-width: 950px){
     .circle{
         height: 285px;
@@ -273,13 +274,58 @@ html,body {
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 @media screen and (max-width: 575px){
     .mycontent{
+        padding-left: 5%;
+        padding-right: 5%;
         flex-direction: column;
     }
 }
+.aboutcontentitem{
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rightaboutcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.leftaboutcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 575px){
+    .aboutcontentitem{
+        width: 100%;
+        height:auto;
+    }
+}
+
+.aboutpic{
+width: 30%;
+}
+@media screen and (max-width: 575px){
+    .aboutpic{
+        max-width: 50%;    
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.intro{
+    padding-right: 25%;
+}
+@media screen and (max-width:575px){
+    .intro{
+        padding-right: 0;
+    }
+}
+
 .contentelement{
     height: 20rem;
     width : 85%;

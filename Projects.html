@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+    
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS.css" media="screen"/>
+
+   
+
+ 
+<title>Anthony Seichter - Rockstar Developer.</title>
+</head>
+
+
+ <body">
+<theWrap id="wrapper">
+    <themeat id="content">
+        <mytop class=" myheader ">
+            <floatingElements class="overlaid">
+                <img class="overlaid topright" src="face1.png" alt="My Face">
+            </floatingElements>            
+<!--------------------------------------------------------------------------------------------->
+            <topleft class=" col-sm-9 sepia" >
+                <div >
+                    <Video class="video" autoplay muted loop id="myvideo"> 
+                        <source src="sun.webm">
+                    </Video>
+                </div>
+                <div class="notactuallyphotobox" >
+                    <div class="spacer"></div>
+                    <div class=" container" style="display: inline-flex; align-items: center; height: 100%;">
+                        <div class="circle" ></div>
+                    </div>
+                </div>
+                <div class="mycontainer topright" style="width: 100%; height: 100%;color: linen;"> 
+                    <button class="buttonheight centerbuttonwide" ><a href="Contact.html"><img class="buttonimg" src="contact.png" alt="Contact image"> </a> </button>   
+                    
+                </div>
+
+                <Div>page title</Div>   
+
+            </topleft>
+<!--------------------------------------------------------------------------------------------->
+            <topright class="col-sm-3 topright  tuck sepia">
+                
+                    <button class="boxheight buttonwide"><a href="index.html"> <img class="buttonimg" src="home.png" alt="Home"> </a></button>
+                    
+                
+                    <button class="boxheight buttonwide"> <a href="aboutme.html"><img class="buttonimg" src="aboutme.png" alt="About Me"></a></button>
+                
+                
+                    <button class="boxheight buttonwide"> <a href="Projects.html"> <img class="buttonimg" src="tools.png" alt="Projects"></a> </button>
+                
+            </topright>
+<!--------------------------------------------------------------------------------------------->
+       </mytop>
+        <smallFloat class="smalloverlay">
+            <img class="smalloverlay" src="face2.png" alt="my face small varsion">
+        </smallFloat> 
+        <smallmenu class="mycontainer smallmenu tuck" >
+            <button class="smallbuttonheight smallbuttonwide tuck"><a href="index.html">Home</a></button>
+            <button class="smallbuttonheight smallbuttonwide tuck"> <a href="Contact.html">Contact</a></button>
+            <button class="smallbuttonheight smallbuttonwide tuck"> <a href="aboutme.html">About Me</a></button>
+            <button class="smallbuttonheight smallbuttonwide tuck "><a href="Projects.html">Projects</a></button>
+        </smallmenu>
+<!--------------------------------------------------------------------------------------------->
+        <bottom>
+            <div class=" container mycontent sepia tuck" style="height: au; width: 100%;">
+                <intro>These are the things I have been working on:</intro>
+                <div>-</div>
+                <div class="leftaboutcontainer">
+                    <a class="aboutpic" href=""> <img src="tools.png" alt=""></a>
+                    <div class="aboutcontentitem">placeholder</div>
+                </div>
+                <div>-</div>
+                <div class="rightaboutcontainer">
+                   <a class="aboutpic" href=""> <img src="tools.png" alt=""></a>
+                   <div class="aboutcontentitem">placeholder</div>
+                </div>     
+                <!--repeat this as needed-->
+                
+
+            </div>
+        </bottom>
+    </themeat>
+</theWrap>
+</body>
+<foot>
+    <script type='text/javascript' src='jquery-3.5.1.slim.min.js'></script>
+    
+    <!--script for loadng video after other elements are done
+        <script type="text/javascript">
+        $(window).bind("load", function() {  
+	    $('#vidhandle').load('movie.html');
+        }); 
+    </script>-->
+    <script>
+        var video = document.getElementById("myvideo");
+        function myFunction() {
+            video.play();
+        }
+    </script>
+</foot>
+
+</html>
