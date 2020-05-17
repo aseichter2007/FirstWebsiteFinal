@@ -292,11 +292,13 @@ html,body {
 }
 .rightaboutcontainer{
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .leftaboutcontainer{
     display: flex;
+    align-items: flex-start;
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
@@ -308,6 +310,7 @@ html,body {
 }
 
 .aboutpic{
+    display: block;
 width: 30%;
 }
 @media screen and (max-width: 575px){
@@ -323,6 +326,22 @@ width: 30%;
 @media screen and (max-width:575px){
     .intro{
         padding-right: 0;
+    }
+}
+.aboutimagelarge{
+    display: block;
+}
+@media screen and (max-width:575px){
+    .aboutimagelarge{
+        display: none;
+    }
+}
+.aboutimagesmall{
+    display: none;
+}
+@media screen and (max-width:575px){
+    .aboutimagesmall{
+        display: block;
     }
 }
 
