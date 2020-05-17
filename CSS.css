@@ -54,9 +54,27 @@ html,body {
    width:100%;
     height:100%;
 }
-.sepia{
-    background-color:linen;
+.headerback{
+    background-image: linear-gradient(linen,linen,rgb(252, 250, 214));
 }
+.sepia{
+    background-color:#14C2CC;
+    background-image: rgb(253, 250, 198)
+    radial-gradient(circle farthest-side at top right, transparent, rgb(210, 225, 250)), radial-gradient(ellipse farthest-corner at 0% 100%, transparent,rgb(253, 251, 219));
+    animation:bg-change 200s infinite;
+}
+
+@keyframes bg-change {
+0%, 100% {
+    filter:hue-rotate(0deg);
+}
+50% {
+    filter:hue-rotate(-45deg);
+}
+}
+
+
+
 .myheader{
     display: flex;
     flex-direction: row;
