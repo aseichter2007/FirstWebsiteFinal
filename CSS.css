@@ -216,7 +216,7 @@ html,body {
 .spacer{
     height: 6vw;
 }
-@media screen and (min-widht:950px){
+@media screen and (min-width:950px){
     .spacer{
         height: 57px;
     }
@@ -250,6 +250,7 @@ html,body {
     display: flexbox;
     align-items: center;
     height: 66%;
+    
 }
 .col-sm-9{
     padding-right: 0;
